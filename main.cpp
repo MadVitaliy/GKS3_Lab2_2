@@ -148,10 +148,9 @@ static void show_usage()
     std::cout << "Options:\n"
               << "-h,--help\tShow this help message\n\n"
               << "-i PATH\t\tset path to input data. Default \"./input.txt\"\n\n"
-              << "-o PATH\t\tset path for output data. Default \"./output.txt\"\n"
-              << "\t\tNOTICE: diagrams will be put in the console anyway \n\n"
+              << "-o PATH\t\tset path for output data. Default \"./output.txt\"\n\n"
               << "-c\t\toutput result in the console\n"
-              << "\t\tDON\'T use with \'-i\' \n\n"
+              << "\t\tDON\'T use with \'-o\' \n\n"
               << "\t\t25.03.2021\tby @mad_skipper"
               << std::endl;
 }
